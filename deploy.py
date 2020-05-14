@@ -4,4 +4,5 @@ import sys
 
 if __name__ == "__main__":
 	for i in sys.argv:
-		print(i)
+		if i == "andy good":
+			print("Key Matched")
